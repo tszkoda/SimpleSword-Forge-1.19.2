@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "simpleswordmod:sturdy_gem"
+    }
+  },
+  "result": {
+    "item": "simpleswordmod:sturdy_gem_block"
+  }
+}

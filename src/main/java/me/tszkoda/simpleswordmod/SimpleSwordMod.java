@@ -1,6 +1,8 @@
 package me.tszkoda.simpleswordmod;
 
 import com.mojang.logging.LogUtils;
+import me.tszkoda.simpleswordmod.block.ModBlocks;
+import me.tszkoda.simpleswordmod.item.ModItems;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -22,7 +24,9 @@ public class SimpleSwordMod {
     public SimpleSwordMod() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        // Register the commonSetup method for modloading
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
+
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);

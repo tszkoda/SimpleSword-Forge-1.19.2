@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "simpleswordmod:block/sturdy_gem_block"
+  }
+}
