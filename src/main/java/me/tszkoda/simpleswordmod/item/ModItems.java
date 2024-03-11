@@ -17,7 +17,7 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SIMPLESWORD_TAB)));
 
     public static final RegistryObject<Item> STURDY_GEM_SWORD = ITEMS.register("sturdy_gem_sword",
-            () -> new SwordItem(ModToolTiers.STURDY_GEM, 4, 2,
+            () -> new SwordItem(ModToolTiers.STURDY_GEM, 12, 12,
                     new Item.Properties().tab(ModCreativeModeTab.SIMPLESWORD_TAB)));
 
     public static void register(IEventBus eventBus) {

@@ -7,7 +7,7 @@ public class ModCreativeModeTab {
     public static final CreativeModeTab SIMPLESWORD_TAB = new CreativeModeTab("simpleswordtab") {
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(ModItems.STURDY_GEM.get());
+            return new ItemStack(ModItems.STURDY_GEM_SWORD.get());
         }
     };
 }
